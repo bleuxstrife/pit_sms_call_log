@@ -20,9 +20,10 @@ You must add this permission in AndroidManifest.xml for Android
 
 ```
 for read sms =  <uses-permission android:name="android.permission.READ_SMS"/>
-```
+
 for read call logs = <uses-permission android:name="android.permission.READ_CALL_LOG"/>
 ```
+
 
 ## Example for Get SMS
 ```
