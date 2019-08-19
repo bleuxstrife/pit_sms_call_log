@@ -1,3 +1,6 @@
+## 0.1.0+2
+* On Ios change result to result(FlutterMethodNotImplemented)
+
 ## 0.1.0+1
 * Fix Bug
 
@@ -6,4 +9,3 @@
 
 ## 0.0.1
 
-* TODO: Describe initial release.

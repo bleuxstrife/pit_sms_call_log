@@ -9,7 +9,7 @@ Use this Plugin to get SMS and Call Logs.
 First, add `pit_sms_call_log` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```
-pit_sms_call_log: ^0.1.0+1
+pit_sms_call_log: ^0.1.0+2
 ```
 
 ## Important
