@@ -1,3 +1,6 @@
+## 0.1.1
+* version 0.1.1, Fix Bug and Enhance Code
+
 ## 0.1.0+2
 * On Ios change result to result(FlutterMethodNotImplemented)
 
