@@ -1,6 +1,6 @@
 name: pit_sms_call_log
 description: A plugin for flutter that functions to get the history of sms and calls logs from the mobile devices (Android Only)
-version: 0.1.1
+version: 0.1.2
 author: Reno Rizky Ollantino <reno.rizky.ollantino@gmail.com>
 homepage: https://github.com/bleuxstrife/pit_sms_call_log
 
