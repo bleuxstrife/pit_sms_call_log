@@ -47,7 +47,6 @@ public class PitSmsCallLogPlugin implements MethodCallHandler {
             try {
                 List<Map<String, Object>> smsLogs = getSmsLog(days);
                 result.success(smsLogs);
-                Log.d("Success", "getSmsLog:" +smsLogs);
             } catch (Exception e1) {
                 e1.printStackTrace();
                 result.error("Error ", "getSmsLog Error : " + e1.getLocalizedMessage(), e1);
@@ -59,7 +58,6 @@ public class PitSmsCallLogPlugin implements MethodCallHandler {
             try {
                 List<Map<String, Object>> callLogs = getCallLog(days);
                 result.success(callLogs);
-                Log.d("Success", "getCallLog:" +callLogs);
             } catch (Exception e) {
                 e.printStackTrace();
                 result.error("Error ", "getCallLog Error : " + e.getLocalizedMessage(), e);
@@ -119,7 +117,6 @@ public class PitSmsCallLogPlugin implements MethodCallHandler {
         calendar.add(Calendar.DAY_OF_YEAR, - days);
         long timeBefore = calendar.getTimeInMillis();
         String condition = Telephony.Sms.DATE + " > " +timeBefore;
-        Log.d("Success", "timeBefore: " +timeBefore);
         String [] projections = {
                 Telephony.Sms.ADDRESS,
                 Telephony.Sms.BODY,

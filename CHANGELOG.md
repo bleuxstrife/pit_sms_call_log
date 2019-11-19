@@ -1,5 +1,8 @@
+## 0.1.3
+* Delete Log
+
 ## 0.1.2
-Fix Bug
+*Fix Bug
 
 ## 0.1.1
 * version 0.1.1, Fix Bug and Enhance Code
